@@ -1,0 +1,36 @@
+/* body {
+  background: url('https://zippy.gfycat.com/WellmadeRealFlyingfox.gif') !important; */
+/* } */
+
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img,
+#primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+/* body,
+html {
+  height: 100%;
+} */
+
+body {
+  /* The image used */
+  background-image: url('https://media.giphy.com/media/kVlsBtxykWDXG/giphy.gif') !important;
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
